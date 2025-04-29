@@ -1,4 +1,4 @@
-FROM debian:jessie
+FROM debian:bullseye
 MAINTAINER dustyfresh, https://github.com/dustyfresh
 RUN apt-get update && apt-get install --yes vim build-essential python-setuptools python-pip supervisor curl
 RUN pip install flask

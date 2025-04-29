@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 from flask import Flask, render_template, redirect, url_for, request
 from datetime import datetime
 
